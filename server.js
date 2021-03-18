@@ -75,4 +75,4 @@ app.post('/secret', async (req, res) => {
 });
 
 
-app.listen(4242, () => console.log(`Listening on port ${4242}!`));
+app.listen(process.env.PORT || 4242, () => console.log(`Listening on port ${process.env.PORT || 4242}!`));
