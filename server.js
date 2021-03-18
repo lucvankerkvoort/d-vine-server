@@ -43,9 +43,9 @@ app.post("/create-checkout-session", async (req, res) => {
 
     res.json({ id: session.id });
 });
-app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "build", "index.html"));
-});
+// app.get("*", (req, res) => {
+//     res.sendFile(path.join(__dirname, "build", "index.html"));
+// });
 
 
 const calculateOrderAmount = (items, discount) => {
