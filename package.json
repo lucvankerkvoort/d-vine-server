@@ -1,0 +1,25 @@
+{
+  "name": "d-vine-server",
+  "version": "1.0.0",
+  "description": "Server for the D-vine application",
+  "main": "index.js",
+  "proxy": "localhost:4242",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucvankerkvoort/d-vine-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucvankerkvoort/d-vine-server/issues"
+  },
+  "homepage": "https://github.com/lucvankerkvoort/d-vine-server#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
